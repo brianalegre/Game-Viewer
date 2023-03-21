@@ -1,7 +1,9 @@
 // Using PascalCasing
 function Message() {
     // JSX: Javascript XML
-    return <h1>Hello World</h1>
+    const name = "Brian";
+    // use {} to write call variable in JSX
+    return <h1>Hello World {name}</h1>
 }
 
 // bablejk.io/repl
