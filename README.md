@@ -1,4 +1,8 @@
 # Game-Viewer
+Learning typescript.
+Creating a dashboarding of free games that are available for download on different platforms. 
+ - Steam
+ - Epic Games
 
 
 Notes:
