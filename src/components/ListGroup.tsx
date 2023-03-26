@@ -4,6 +4,19 @@
 // Fragment can also be <>
 
 function ListGroup() {
+
+    // List of places
+    const items = [
+        'New York',
+        'San Francisco',
+        'Tokyo',
+        'London',
+        'Paris',
+    ];
+
+    // Map items to list
+    items.map(item => <li>{item}</li>)
+
     return (
         <>
             <h1>List</h1>
