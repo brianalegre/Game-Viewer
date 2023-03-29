@@ -22,7 +22,7 @@ function ListGroup() {
             <ul className="list-group">
                 {/* Map items to list */}
                 {items.map((item) => (
-                    <li>{item}</li>
+                    <li key={item}>{item}</li>
                 ))}
                 {/* <li className="list-group-item">An item</li>
                 <li className="list-group-item">A second item</li>
